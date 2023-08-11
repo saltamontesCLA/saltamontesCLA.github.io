@@ -1,0 +1,115 @@
+styles.css
+{@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');}
+
+body {
+  background-color:black;
+  color: black;
+}
+
+section {
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color:antiquewhite;
+}
+
+header {
+  background-color:sienna;
+  background-size: 50px;
+}
+
+h1 {
+  text-decoration:none;
+  color:darkred;
+  font-family: 'comic sans ms', fantasy;
+  font-size: 80px;
+}
+
+h2 {
+  text-align: center;
+    color:cadetblue;
+    font-family: 'verdana', fantasy;
+    font-size: 35px;
+    margin: 5px;
+}
+
+h3 {
+  text-align: center;
+    color:darkred;
+    font-family: "comic sans ms", cursive, sans-serif;
+    font-size: 40px;
+    margin: 10px;
+}
+
+nav a {
+    background-color:goldenrod;
+    background-image: -webkit-linear-gradient(tan, wheat);
+    background-image: -moz-linear-gradient(tan, wheat);
+    background-image: -o-linear-gradient(tan, wheat);
+    background-image: linear-gradient(tan, wheat);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    color:black;
+    display:inline;
+    font-size: 25px;
+    margin: 8px auto;
+    padding: 8px;
+    text-decoration: none;
+    width: 50px;
+  }
+  
+  nav a:hover {
+    color:black;
+    text-decoration: underline;
+    background-image: -webkit-linear-gradient(bottom, goldenrod, gold);
+    background-image: -moz-linear-gradient(bottom, goldenrod, gold);
+    background-image: -o-linear-gradient(bottom, goldenrod, gold);
+    background-image: linear-gradient(to top, goldenrod, gold);
+  }
+
+  
+figure {
+  color:black;
+  margin: 10px 5px;
+  padding: 5px 0;
+  text-align:center;
+}
+
+header:hover {
+    opacity: 1;
+  }
+
+  figcaption {
+    font-size: 18px;
+    text-align: center;
+    background-color: cadetblue;
+    color:white;
+    margin: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  border:1px solid black;
+  }
+
+img {
+  border:5px solid black;
+  justify-content: center;
+  width: 500px;
+}
+
+a:hover {
+  color: gold;
+}
+
+a {
+  font-size: 30px;
+  color:cadetblue;
+  text-decoration: dotted;
+}
+
+p {
+  text-align: justify;
+  font-size: 23px;
+  font-family: 'comic sans ms', fantasy;
+}
+
